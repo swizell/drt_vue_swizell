@@ -7,7 +7,7 @@ To set up this project in your local run the below command
  cd drt_vue_swizell/digantara-www/
 
  3) Do the installations
- npm installl
+ npm install
 
  4) Run the app
  npm run dev
