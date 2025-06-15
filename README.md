@@ -4,8 +4,7 @@ To set up this project in your local run the below command
  git clone https://github.com/swizell/drt_vue_swizell
 
  2) Go to the digantar-www folder
- cd drt_vue_swizell
- cd digantar-www
+ cd drt_vue_swizell/digantara-www/
 
  3) Do the installations
  npm installl
