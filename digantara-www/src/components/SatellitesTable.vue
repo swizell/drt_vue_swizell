@@ -67,8 +67,8 @@ const selectedItems = ref<Satellite[]>(getStoredItems())
 const columns = ref([
   { title: 'NORAD Catalog ID', key: 'noradCatId', class: 'text-start', sortable: true },
   { title: 'Satellite Name', key: 'name', class: 'text-left', sortable: true, align: 'left' },
-  { title: 'Orbit Code', key: 'orbitCode', class: 'text-start' },
-  { title: 'Object Type', key: 'objectType', class: 'text-start' },
+  { title: 'Orbit Code', key: 'orbitCode', class: 'text-start', sortable: false },
+  { title: 'Object Type', key: 'objectType', class: 'text-start', sortable:  false },
   { title: 'Country Code', key: 'countryCode', class: 'text-start', sortable: true },
   { title: 'Launch Date', key: 'launchDate', class: 'text-start', sortable: true },
 ])
